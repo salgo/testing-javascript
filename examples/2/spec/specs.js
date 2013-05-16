@@ -15,7 +15,7 @@ var jsonAnimals =
 describe("A Zoo", function() {
 
     it('which is empty is not valid', function() {
-        var zoo = new Zoo({});
+        var zoo = new Zoo();
         expect(zoo.valid()).toBe(false);
     });
 
